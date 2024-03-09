@@ -1,0 +1,24 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 1s;
+    padding: 15px;
+}
+.card:hover{
+    background-color: orange;
+    position: relative;
+    top: 20px;
+}
